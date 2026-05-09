@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  background: #f5f7fb;
+}
+
+/* ヘッダー */
+
+.header {
+  background: white;
+  border-bottom: 1px solid #eee;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  padding: 18px;
+}
+
+.header h1 {
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.menu {
+  font-size: 24px;
+}
+
+/* コンテンツ */
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 24px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* 入力 */
+
+input {
+  flex: 1;
+  padding: 12px 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  outline: none;
+}
+
+button {
+  border: none;
+  background: #4cccd5;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* リスト */
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  background: #fafafa;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  border-bottom: 1px solid #5a5757;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+li span {
+  flex: 1;
+}
+
+/* 丸チェック */
+
+li::before {
+  border: 2px solid #020202;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+/* 完了 */
+
+.completed {
+  text-decoration: line-through;
+  color: #02034d;
+}
+
+.delete-btn {
+  background: #ff5b5b;
+}
+
+.completed::before {
+  content: "✔";
+  background: #4cccd5;
+  color: white;
+  border-color: #4cccd5;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
