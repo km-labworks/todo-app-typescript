@@ -47,3 +47,7 @@ export type Todo = {
 - LocalStorage
 - 配列操作
 - 例外処理
+
+## Screenshot
+
+![Todo App](./images-screenshot.png)
