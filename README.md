@@ -50,4 +50,4 @@ export type Todo = {
 
 ## Screenshot
 
-![Todo App](./images/screenshot.png)
+![TodoApp](./images/screenshot.png)
