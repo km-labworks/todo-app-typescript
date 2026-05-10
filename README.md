@@ -40,14 +40,10 @@ export type Todo = {
   completed: boolean
 }
 
-## 学習内容
-
-- DOM操作
-- クラス設計
-- LocalStorage
-- 配列操作
-- 例外処理
+```
 
 ## Screenshot
 
 ![Todo App](./images/screenshot.png)
+
+---
