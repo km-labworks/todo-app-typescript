@@ -1,4 +1,4 @@
-import type { Todo } from "./Todo.ts";
+import type { Todo } from "./types/Todo.ts";
 
 /**
  * Todoを管理するクラス
